@@ -48,6 +48,7 @@ libgame = Extension("gambit.lib.libgambit",
                               "../tools/logit/nfglogit.cc",
                               "../tools/logit/efglogit.cc" ],
                     language="c++",
+                    libraries=["stdc++"],
                     include_dirs=[ "../..", ".." ] )
 
 setup(name="gambit",
